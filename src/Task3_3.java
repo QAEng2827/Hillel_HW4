@@ -4,8 +4,6 @@ public class Task3_3 {
     public static void main(String[] args) {
         String string1 = "Strings are so cool!";
         String string2 = "Strings are so cool";
-
-
         if (string1.compareToIgnoreCase(string2) == 0) {
             System.out.printf("\" %s \" " + " is equal to " + "\" %s \" ",string1,string2);
         } else {

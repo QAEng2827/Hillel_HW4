@@ -5,8 +5,6 @@ For example, 52 = 25, 62 = 36, 762 = 5776, and 8906252 = 793212890625,
  so 5, 6, 76 and 890625 are all automorphic numbers.*/
 public class Task2_1 {
 
-
-
     public static void main(String[] args){
 
         System.out.print("Input a number: ");

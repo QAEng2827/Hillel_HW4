@@ -6,7 +6,6 @@ import java.util.Date;
 
 public class Task1_1 {
 
-
 /*Write a java program which print in console what day of the week is today. Use Enum with list of days.*/
 
     private enum DayOfWeek{

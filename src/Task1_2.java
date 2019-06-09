@@ -14,7 +14,6 @@ public class Task1_2 {
          IntNumber(int value){
         this.value = value;
 
-
         }
          private static final IntNumber[] VALUES= values();
          private static final int SIZE = VALUES.length;

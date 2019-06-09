@@ -34,24 +34,19 @@ Example: 19 is a happy number
            }
     }
 
-
-
-
     public static void main(String[] args) {
         int score=0;
         List<Integer> happyNumbers = new ArrayList<Integer>();
         System.out.println("First 10 Happy numbers: ");
-        for (int number =1; number<= 45;number++) {
+        for (int number =1; number<= 100;number++) {
             int currentNumber = number;
             if(digitsInNumber(number, score)) {
                 happyNumbers.add(currentNumber);
-                System.out.print(currentNumber + " ");
-
-            }
+                         }
         }
-//        for (int i=0; i<=10; i++){
-//            System.out.print(happyNumbers[i] + " ");
-//        }
+        for (int i=0; i<10; i++){
+            System.out.print(happyNumbers.get(i) + " ");
+        }
 
     }
 
